@@ -8,6 +8,7 @@ import AllergyOverview from "../../widgets/allergies/allergy-overview.component"
 import NotesOverview from "../../widgets/notes/notes-overview.component";
 import ProgramsOverview from "../../widgets/programs/programs-overview.component";
 import MedicationsOverview from "../../widgets/medications/medications-overview.component";
+import PatientFormsOverview from "../../widgets/formentry/formentry-overview.component";
 
 export default function PatientChartOverview(props: PatientChartOverviewProps) {
   const config = [
@@ -17,7 +18,8 @@ export default function PatientChartOverview(props: PatientChartOverviewProps) {
     "allergies",
     "notes",
     "vitals",
-    "heightAndWeight"
+    "heightAndWeight",
+    "formEntry"
   ];
 
   const coreComponents = {
@@ -27,7 +29,8 @@ export default function PatientChartOverview(props: PatientChartOverviewProps) {
     notes: NotesOverview,
     vitals: VitalsOverview,
     heightAndWeight: HeightAndWeightOverview,
-    medications: MedicationsOverview
+    medications: MedicationsOverview,
+    formEntry: PatientFormsOverview
   };
 
   return (
