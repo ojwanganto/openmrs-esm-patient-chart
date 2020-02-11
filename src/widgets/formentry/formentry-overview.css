@@ -1,0 +1,17 @@
+.formElement {
+  display: flex;
+  align-items: center;
+  border: none;
+  padding: 0.625rem 1.625rem 0.625rem 1rem;
+  background-color: var(--omrs-color-bg-medium-contrast);
+  color: var(--omrs-color-ink-medium-contrast);
+  cursor: pointer;
+}
+
+.formLink {
+  text-decoration: none;
+  color: blue;
+}
+a:hover {
+  color: brown;
+}

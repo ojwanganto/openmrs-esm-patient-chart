@@ -1,6 +1,11 @@
 {
+  "Active Forms": "Active Forms",
   "Active Medications": "Active Medications",
   "Active Programs": "Active Programs",
+  "Medications -current": "Medications -current",
+  "Medications-previous": "Medications-previous",
+  "Patient Forms": "Patient Forms",
   "Since": "Since",
-  "care programs": "Care Programs"
+  "care programs": "Care Programs",
+  "conditions": "Conditions"
 }
